@@ -1,4 +1,5 @@
 import './App.css'
+import AboutSection from './components/AboutSection'
 import CallToAction from './components/CallToAction'
 import Footer from './components/Footer'
 import Gallery from './components/Gallery'
@@ -16,10 +17,11 @@ function App() {
     <div>
     <Navbar />
     <Hero />
+    <AboutSection />
     <ProblemSolution />
     <USP />
     <Impact />
-    <Gallery />
+    {/* <Gallery /> */}
     <VideoSection />
     <CallToAction />
     <Footer />

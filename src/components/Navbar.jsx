@@ -14,11 +14,7 @@ const Navbar = () => {
 
         {/* Menu for Larger Screens */}
         <ul className="hidden md:flex space-x-6">
-          <li>
-            <a href="#home" className="hover:text-green-300 transition">
-              Home
-            </a>
-          </li>
+          
           <li>
             <a href="#about" className="hover:text-green-300 transition">
               About
@@ -64,11 +60,6 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden bg-green-800 text-white">
           <ul className="space-y-4 p-4">
-            <li>
-              <a href="#home" className="hover:text-green-300 transition">
-                Home
-              </a>
-            </li>
             <li>
               <a href="#problem-solution" className="hover:text-green-300 transition">
                 About

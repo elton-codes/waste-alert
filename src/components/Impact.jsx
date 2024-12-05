@@ -45,9 +45,12 @@ const Impact = () => {
           {impactItems.map((item, index) => (
             <div
               key={index}
-              className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition"
+              className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition flex flex-col items-center"
             >
-              {item.icon}
+                <div className="flex items-center justify-center">
+                {item.icon}
+                </div>
+              
               <h3 className="text-2xl font-semibold mb-4">{item.title}</h3>
               <p className="text-gray-600 leading-relaxed">{item.description}</p>
             </div>
