@@ -1,27 +1,23 @@
-import React from "react";
-
 const VideoSection = () => {
-  return (
-    <section className="py-16 bg-white" id="video">
-      <div className="max-w-6xl mx-auto px-4">
-        <h2 className="text-4xl font-bold text-green-800 text-center mb-8">
-          How Waste Alert Works
-        </h2>
-        <div className="relative overflow-hidden rounded-lg shadow-lg">
-          <video
-            className="w-full h-80 md:h-96"
-            controls
-          >
-            <source src="/src/assets/img/demoVid.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+    return (
+      <section className="py-16 bg-green-50">
+        <div className="max-w-6xl mx-auto px-4 text-center">
+          <h2 className="text-4xl font-bold text-green-800 mb-8">
+            Watch How Waste Alert Works
+          </h2>
+          <div className="relative pb-9/16" style={{ paddingBottom: '56.25%' }}>
+            <iframe
+              className="absolute inset-0 w-full h-full"
+              src="https://www.youtube.com/embed/LOPNFKMgvM0"
+              title="Waste Alert Video"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
         </div>
-        <p className="text-center text-gray-600 mt-4">
-          Watch this short video to see Waste Alert in action!
-        </p>
-      </div>
-    </section>
-  );
-};
-
-export default VideoSection;
+      </section>
+    );
+  };
+  export default VideoSection;
+  

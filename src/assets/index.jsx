@@ -1,3 +1,5 @@
 import heroImg from "./img/wasteHero.png"
+import logo from "./img/wastealertLogo.png"
 
-export {heroImg}
+
+export {heroImg, logo}
