@@ -1,5 +1,5 @@
 import React from "react";
-import { Heart, BarChart3, Users } from "lucide-react";
+import { Heart, BarChart3, Users, BriefcaseBusiness } from "lucide-react";
 
 const Impact = () => {
   const impactItems = [
@@ -22,7 +22,7 @@ const Impact = () => {
         "Empowered partnerships with municipal authorities and environmental stakeholders for scalable impact.",
     },
     {
-        icon: <Users className="text-green-600 text-4xl mb-4" />,
+        icon: <BriefcaseBusiness className="text-green-600 text-4xl mb-4"/>,
         title: "Employment Generation",
         description:
           "Contributed to economic development by employing Internet of Things (IoT) experts into its waste management solutions.",
