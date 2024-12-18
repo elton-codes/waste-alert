@@ -21,13 +21,13 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#features" className="hover:text-green-300 transition">
-              Features
+            <a href="#impact" className="hover:text-green-300 transition">
+            Impact
             </a>
           </li>
           <li>
-            <a href="#impact" className="hover:text-green-300 transition">
-              Impact
+            <a href="#video" className="hover:text-green-300 transition">
+              How It Works
             </a>
           </li>
           <li>

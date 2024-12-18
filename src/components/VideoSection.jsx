@@ -1,6 +1,6 @@
 const VideoSection = () => {
     return (
-      <section className="py-16 bg-green-50">
+      <section id="video" className="py-16 bg-green-50">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold text-green-800 mb-8">
             Watch How Waste Alert Works
