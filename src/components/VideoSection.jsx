@@ -8,7 +8,7 @@ const VideoSection = () => {
           <div className="relative pb-9/16" style={{ paddingBottom: '56.25%' }}>
             <iframe
               className="absolute inset-0 w-full h-full"
-              src="https://www.youtube.com/embed/LOPNFKMgvM0"
+              src="https://www.youtube.com/embed/kWWPKlEQR_k"
               title="Waste Alert Video"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

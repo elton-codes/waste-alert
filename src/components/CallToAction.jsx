@@ -18,7 +18,7 @@ const CallToAction = () => {
         <div className="flex flex-col md:flex-row items-center justify-center gap-6">
           <a
             href="#contact"
-            className="bg-white text-green-800 px-6 py-3 rounded-lg shadow-md font-semibold hover:bg-gray-100 transition"
+            className="bg-white text-green-800 px-6 py-3 rounded-lg shadow-md font-semibold hover:bg-green-300 transition"
           >
             Contact Us
           </a>
